@@ -14,13 +14,10 @@ In the waypoints screen (:ref:`Menu <sec-menu>` > Waypoints) you can do all sort
    waypoints_unload
    waypoints_create_map
    waypoint_details
-   waypoint_quick_actions
    waypoint_edit
    waypoint_remove
    waypoints_select
-   waypoint_icons
    organizing_waypoints
    searching_waypoints
    exporting_waypoints
    importing_waypoints
-   ../routes/routes_synchronize_icloud
