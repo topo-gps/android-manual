@@ -26,9 +26,7 @@ In Topo GPS you can :ref:`import <sec-routes-import>`, :ref:`plan <sec-route-pla
    routes_organize
    routes_import
    routes_export
-   routes_share
-   routes_synchronize_icloud 
-   
+   routes_share   
 
 
 
