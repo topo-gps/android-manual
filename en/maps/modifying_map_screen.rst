@@ -11,6 +11,7 @@ Scroll
 ~~~~~~
 To scroll the map you have to hold a finger on the map. When you move your finger, the map will be moved as well. You can also move the map by making a quick swipe with your finger on the map.
 
+On modern Android devices the scrolling of the map near the corners of the screen might interfere with Android gesture based navigation (an arrow might popup and you might return to the previous screen). Unfortunately we cannot disable this gesture based navigation in the main screen for you. If you dislike gesture based navigation, you can change the Android setting: System > Gestures > System navigation to 'Navigation with 3 buttons'.
 
 .. _ss-map-zoom:
 
@@ -20,10 +21,6 @@ You can zoom the map in or out in two ways:
 
 - *Zooming in:* Tap one finger on the bottom of the map. Or hold two fingers on the map and bring them together.
 - *Zooming out:* Tap one finger on the top of the map. Or hold two fingers on the map and move them away from each other.
-
-If you do not like zooming in with one tap on the bottom of the map and zooming out with one tap at the top, you can
-swap this in the via :ref:`Menu <sec-menu>` > More > Settings > :ref:`Single tap zoom <sec-settings-single-tap-zoom>`. 
-You can also change there bottom/top into left/right.
 
 .. _ss-map-center:
 
