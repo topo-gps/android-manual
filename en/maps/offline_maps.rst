@@ -80,11 +80,37 @@ Storage space
 ~~~~~~~~~~~~~
 Storing of map tiles on your device costs disk space. In the map download screen you can see how much space has been used.
 
-‘Current map’ means the total storage of the complete current map. So in the case of the figure above it means that the complete map of Great Britain uses currently 65 MB of the storage space.
+‘Current map’ means the total storage of the complete current map. So in the case of the figure above it means that the complete map of Great Britain uses currently 6.6 MB of the storage space.
 
-‘All maps’ means the total storage of all maps together. So suppose you have also stored map tiles of New Zealand and France, ‘All maps’ indicates the total size used by France, New Zealand and Great Britain. In the figure above this is 174 MB.
+‘All maps’ means the total storage of all maps together. So suppose you have also stored map tiles of New Zealand and France, ‘All maps’ indicates the total size used by France, New Zealand and Great Britain. In the figure above this is 13 MB.
 
-‘Free on device’ means the amount of available storage space on your device. In the figure above this is 1450 GB (This is not a real iPhone, but an iPhone run on a simulator on MacOS).
+‘Free on device’ means the amount of available storage space on your device. In the figure above this is 5.76 GB.
+
+Storage location
+~~~~~~~~~~~~~~~~
+If you scroll down in the map download screen you can set the storage location of the map tiles. 
+You could for example set it to SD card. By default it is set to internal storage like in the figure below:
+
+.. figure:: ../_static/map-offline5.png  
+   :height: 568px
+   :width: 320px
+   :alt: Making map offline accessible Topo GPS
+
+   *The storage location setting is set to 'Internal storage'.*
+
+By tapping the storage location, a screen will appear in which you can see all availble storage locations on your device.
+
+.. figure:: ../_static/map-offline5.png  
+   :height: 568px
+   :width: 320px
+   :alt: Making map offline accessible Topo GPS
+
+   *The available storage locations.*
+
+In this screen you can select a storage location. You could for example choose the SD card. Sometimes the nameings are a bit unclear, but you might look at the availble space to figure out which one is the SD card.
+
+To optimally use the storage space on your SD card you should format the SD card with a very small allocation unit size, like 8 kB.
+The reason is that the map tiles are files with a size between 0 and 100 kB. If you store them on a SD card with a allocation size of for example 128 kB, each map tile will use at least 128 kB of space on your SD card. This will result in a much higher storage space usage then necessary.
 
 Removing map tiles
 ~~~~~~~~~~~~~~~~~~
