@@ -27,7 +27,7 @@ To see why the maps are not being downloaded, tap the offline accessible button 
    
    *The map download screen.*
    
-In the map download screen you could tap 'Download' and see what happens. Also you could enable 'Use cellular network' to allow cellular downloads of map tiles. You also might want to enable cellular access for Topo GPS in the iOS Settings. You can read more about the map download screen in the section :ref:`sec-cache`.
+In the map download screen you could tap 'Download' and see what happens. Also you could enable 'Use cellular network' to allow cellular downloads of map tiles. You also might want to enable cellular access for Topo GPS in the Android Settings. You can read more about the map download screen in the section :ref:`sec-cache`.
 
 
 Scrolled out of coverage region
