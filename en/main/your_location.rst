@@ -40,15 +40,8 @@ into a waypoint and export your current location with the buttons in the top too
    :width: 320px
    :alt: Current location screeen Topo GPS
 
-   *The current location screen (top part).*
-   
-.. figure:: ../_static/current-location2.png
-   :height: 568px
-   :width: 320px
-   :alt: Current location screeen Topo GPS
-
-   *The current location screen (bottom part).*
-   
+   *The current location screen.*
+      
 In the location information screen you find subsequently the following information:
 
 - *Map*: A map of the surroundings of your current location. You can also zoom and move this map.
