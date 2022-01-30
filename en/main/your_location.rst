@@ -67,14 +67,7 @@ Saving current location
 ~~~~~~~~~~~~~~~~~~~~~~~
 By tapping the ‘Save’ icon in the top right of the current location screen you can save your current position as a :ref:`waypoint <sec-wp>`. The waypoint will be given a title based on the current date and time.
 
-If you tap the 'Save' icon your current position will be saved immediately as a waypoint and added to the map. A pop-up will show that the waypoint was saved successfully as you can see in the figure below:
-
-.. figure:: ../_static/current-location3.png
-   :height: 568px
-   :width: 320px
-   :alt: Saving current location as waypoint Topo GPS
-
-   *Saving your current location as a waypoint.* 
+If you tap the 'Save' icon your current position will be saved immediately as a waypoint and added to the main. You will also return to the main map.
 
 .. _ss-current-location-create:
 
