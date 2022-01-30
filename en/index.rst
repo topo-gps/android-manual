@@ -1,8 +1,8 @@
 .. meta::
    :description: Manual of the topographic maps navigation app Topo GPS, Android version.
 
-Topo GPS manual iOS
-===================
+Topo GPS manual Android
+=======================
 
 The manual of the topographic maps navigation app `Topo GPS <https://www.topo-gps.com/>`_ for Android.
 The complete manual can also be downloaded in `PDF format <https://www.topo-gps.com/android/en/manual/latex/TopoGPSManual.pdf>`_.
