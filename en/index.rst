@@ -9,6 +9,9 @@ The complete manual can also be downloaded in `PDF format <https://www.topo-gps.
 
 The `Topo GPS app can be installed for free <https://play.google.com/store/apps/details?id=uk.rdzl.topo.gps&hl=en>`__ from the Google Play store.
 
+There is also an _`iOS version of the Topo GPS manual <https://www.topo-gps.com/ios/en/manual/html>`_.
+
+
 Contents:
 
 .. toctree::
