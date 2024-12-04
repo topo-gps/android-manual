@@ -11,8 +11,6 @@ Scroll
 ~~~~~~
 To scroll the map you have to hold a finger on the map. When you move your finger, the map will be moved as well. You can also move the map by making a quick swipe with your finger on the map.
 
-On modern Android devices the scrolling of the map near the corners of the screen might interfere with Android gesture based navigation (an arrow might popup and you might return to the previous screen). Unfortunately we cannot disable this gesture based navigation in the main screen for you. If you dislike gesture based navigation, you can change the Android setting: System > Gestures > System navigation to 'Navigation with 3 buttons'.
-
 .. _ss-map-zoom:
 
 Zoom
@@ -22,6 +20,12 @@ You can zoom the map in or out in two ways:
 - *Zooming in:* Tap one finger on the bottom of the map. Or hold two fingers on the map and bring them together.
 - *Zooming out:* Tap one finger on the top of the map. Or hold two fingers on the map and move them away from each other.
 
+If you do not like zooming in with one tap on the bottom of the map and zooming out with one tap at the top, you can
+swap this in the via :ref:`Menu <sec-menu>` > More > Settings > :ref:`Single tap zoom <sec-settings-single-tap-zoom>`. 
+You can also change there bottom/top into left/right.
+
+At some point it is not possible to zoom in further. If you want to enable additional zoom, you can do this by enabling the setting :ref:`Menu > More > Settings > Map > Additional zoom in <sec-settings-map>`. The drawback is that then map will become grainy when zoomed in far.
+
 .. _ss-map-center:
 
 Center
@@ -29,7 +33,7 @@ Center
 By tapping the position marker icon on the bottom left of the main screen, the map will be centered on your current location. An example
 is shown in the figure below.
  
-.. figure:: ../_static/map2.png
+.. figure:: ../_static/main_map_centered.jpg
    :height: 568px
    :width: 320px
    :alt: Centrered map Topo GPS
@@ -41,10 +45,11 @@ If you are moving, the map will stay centered automatically. The map will move a
 The map stays auto centered as long as you do not move the map manually. To zoom in or out while keeping the map centered,
 tap on the bottom or top of the map. Zooming with two fingers will cancel the automatic centering.
 
-Centering the map on your location only works if you have given Topo GPS access to your location. You can do this in the settings app. 
-Go to Settings > Privacy > Location services > Topo GPS.
+Centering the map on your location only works if you have given Topo GPS access to your location. You can do this in the settings app of your device. 
 
 If you have centered the map on your location, the position marker icon on the dashboard will be changed to a rotation icon.
+
+If you use a keyboard you can also tap 'c' to center the map.
 
 .. _ss-map-rotate:
 
@@ -60,7 +65,7 @@ By tapping once on the position marker icon on the bottom left of the screen, th
 
 The map is rotated such that the top of the map indicates the direction in which you point your device if your are standing still. If you are moving the top of the map will indicate the direction in which you move. An example is shown in the figure below:
 
-.. figure:: ../_static/map3.png  
+.. figure:: ../_static/main_map_rotated.jpg 
    :height: 568px
    :width: 320px
    :alt: Rotated map Topo GPS
@@ -79,7 +84,7 @@ If you move the map or zoom with two fingers automatic rotation will be switched
 
 Manual rotation
 ***************
-If you put two fingers on the screen and make a rotation gesture by moving on of the fingers, the map will be rotated around the point that lies in between the two fingers. An example of a rotated map is displayed in figure above. You can rotate the map in every desired direction. 
+If you put two fingers on the screen and make a rotation gesture by moving the two finger clockwise or counter-clockwise, the map will be rotated around the point that lies in between the two fingers. An example of a rotated map is displayed in figure above. You can rotate the map in every desired direction. 
 
 If the map is rotated, an north arrow will appear on the top left of the screen. This arrow indicates the direction of the true north on the map. If you press this arrow the rotation will be cancelled.
 
